@@ -1,24 +1,70 @@
+header img{
+	width: 1380px;
+}
 
+body {
+  background-color:rgb(88, 88, 88);
+}
 
-.auto-style1 {
-	font-family: Ebrima sans-serif;
-	font-size: small;
+h1 {
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+img{
+	padding: 8px;
+	width: 1000px;
+	margin: center;
+}
+aside{
+	float: left;
+	height: 800px;
+	background:rgb(221, 96, 96);
+	color: none;
+}
+.flex-container {
+	display: flex;
+	height: 200px;
+	align-items: baseline;
+	background-color: DodgerBlue;
+}
+.flex-container > div {
+	background-color: #f1f1f1;
+	width: 100px;
+	margin: 10px;
+	text-align: center;
+	line-height: 75px;
+	font-size: 30px;
+}
+
+/*Nav Bar*/
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+  }
+  
+  li {
+	float: left;
+  }
+  
+  li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
 	text-decoration: none;
-}
-.auto-style2 {
-	color: #CDA551;
-	text-decoration: none;
-}
-a {
-	color: #CDA551;
-	text-decoration: none;
-}
-a:visited {
-	color: #CDA551;
-}
-a:active {
-	color: #CDA551;
-}
-a:hover {
-	color: #CDA551;
-}
+  }
+  
+  li a:hover:not(.active) {
+	background-color: #111;
+  }
+  
+  .active {
+	background-color: #4CAF50;
+  }
